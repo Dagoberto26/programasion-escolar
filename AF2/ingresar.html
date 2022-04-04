@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+     <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./indes.css">
+        <title>registros</title>
+     </head>
+     <body>
+        <header>
+            <ul class='nav'>
+                <a href="index.html" class=" b2">regresar</a>
+            </ul>
+       </header>
+       <main>
+              <section id="ingresar">
+            <div id="content_ingresar">
+                <h2>inisiar sesion</h2>
+                <input type="email" name="" id="email_L" placeholder="Ingrese su Correo">
+                <input type="password" name="" id="pass_L" placeholder="Ingrese su contrase;a"><br>
+                <a onclick="logg()" class="bl"><button id="login">login</button></a>
+            </div>
+       </section>
+       <section id="google_s">
+        <div id="botones">
+            <button id="google" onclick="google()" class="boton">Google</button>
+             <button id="facebook" onclick="fb()" class="boton">Facebook</button>
+        </div> 
+        <div id="botones">
+            <button id="yahoo" onclick="ya()" class="boton">Yahoo</button>
+            <button id="github" onclick="git()" class="boton">Github</button>
+         </div>
+         <div id="botones">
+             <button id="twitter" onclick="tw()" class="boton">twitter</button>
+         </div>
+       </main>
+     
+       <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js"></script>
+
+<script src="index.js"></script>
+     </body>
+</html>
